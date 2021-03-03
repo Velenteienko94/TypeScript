@@ -33,7 +33,7 @@ for(let i = 0; i< size; i++){
     ? board.concat(`${" #".repeat(size / 2)}\n`)
     : board.concat(`${"# ".repeat(size / 2)}\n`)
 }
-    return board;
+  return board;
 }
 
 
